@@ -1,6 +1,6 @@
-package app;
+package app.factoryMethod;
 
-public class NotificacaoEmail implements Notificador{
+public class NotificacaoEmail implements Notificador {
 
     @Override
     public void enviar(String msg){

@@ -1,4 +1,4 @@
-package app;
+package app.factoryMethod;
 
 
 public class NotificacaoSms implements Notificador {
