@@ -1,4 +1,9 @@
 package app;
 
-public class smsFactory {
+public class SmsFactory extends NotificacaoFactory {
+
+    @Override
+    protected Notificador criarNotificacao() {
+        return new NotificacaoSms();
+    }
 }
